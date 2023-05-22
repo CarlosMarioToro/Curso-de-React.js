@@ -1,0 +1,26 @@
+.search-container {
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search-container input {
+    width: 66vw;
+    height: 1rem;
+    font-size: 20px;
+    border-radius: 2rem;
+    border: 1px solid #cacfd4;
+    padding: 20px;
+}
+
+.search-container input:focus {
+    outline-color: #444f72;
+}
+
+.icono-placeholder {
+    background-image: url('../assets/search-icon.svg');
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+}

@@ -1,0 +1,59 @@
+.todo-item {
+    width: 70vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #cacfd4;
+    align-items: center;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 12px;
+    border-radius: .8rem;
+}
+
+.todo-item .check {
+    -webkit-mask: url(../assets/circle.svg);
+    mask: url(../assets/circle.svg);
+    mask-size: cover;
+    background: #4CAF50;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item .check--active {
+    -webkit-mask: url(../assets/circle-check.svg);
+    mask: url(../assets/circle-check.svg);
+    mask-size: cover;
+    background: #4CAF50;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.todo-item p {
+    width: 70%;
+}
+
+.todo-item .line-through {
+    width: 70%;
+    text-decoration: line-through;
+}
+
+.todo-item .close-item {
+    -webkit-mask: url(../assets/x.svg) no-repeat;
+    mask: url(../assets/x.svg) no-repeat;
+    background: #757e75;
+    background-position: center center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item .close-item:hover {
+    -webkit-mask: url(../assets/x-red.svg) no-repeat;
+    mask: url(../assets/x-red.svg) no-repeat;
+    background: red;
+    background-position: center center;
+}
