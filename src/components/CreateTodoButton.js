@@ -4,7 +4,14 @@ function CreateTodoButton() {
     return (
         <div className="create-todo-button" >
             <div >
-                <button ></button>
+                <button 
+                    onClick={
+                        (event) => {
+                            console.log('le diste click')
+                            console.log(event.target);
+                        }
+                    }
+                ></button>
             </div>
         </div>
     );
