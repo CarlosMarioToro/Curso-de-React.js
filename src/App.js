@@ -10,14 +10,16 @@ const defaultTodos = [
   {text: 'Llorar con la Llorona', completed: false},
   {text: 'Llorar a la lloreria', completed: true},
   {text: 'LALALAL', completed: false},
-  {text: 'Cortar cebolla2', completed: true},
+  {text: 'Cortar cebolla2', completed: false},
   {text: 'Tomar el Curso de React.js2', completed: false},
-  {text: 'Llorar con la Llorona2', completed: false},
-  {text: 'Llorar a la lloreria2', completed: true},
-  {text: 'LALALAL2', completed: false},
+  {text: 'Llorar con la Llorona2', completed: true},
+  {text: 'Llorar a la lloreria2', completed: false},
+  {text: 'LALALAL2', completed: true},
 ];
 
 function App() {
+  const [searchValue, setSearchValue] = React.useState('');
+  console.log('Los usuario buscan TODOs de ' + searchValue);
   return (
     <>
       <TodoCounter completed={16} total={defaultTodos.length} />

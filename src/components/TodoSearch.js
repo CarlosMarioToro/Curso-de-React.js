@@ -1,16 +1,16 @@
+import React from 'react';
 import './TodoSearch.css';
-import searchIcon from "../assets/search-icon.svg";
+// import searchIcon from "../assets/search-icon.svg";
 
-function TodoSearch({ searchValue, setSearchValue }) {
+function TodoSearch() {
     return (
         <div className="search-container">
             <input
                 className='icono-placeholder'
                 value={searchValue}
                 placeholder="Cortar cebolla"
-                // onChange={(e) => setSearchValue(e.target.value)}
+                onChange={(event) => setSearchValue(event.target.value)}
             />
-            {/* <img className="search-icon" src={searchIcon} alt="search icon" /> */}
         </div>
     );
 }
