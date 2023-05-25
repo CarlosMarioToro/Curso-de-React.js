@@ -1,8 +1,10 @@
-import React from 'react';
 import './TodoSearch.css';
 // import searchIcon from "../assets/search-icon.svg";
 
-function TodoSearch() {
+function TodoSearch({
+    searchValue,
+    setSearchValue
+}) {
     return (
         <div className="search-container">
             <input
