@@ -7,7 +7,7 @@
     align-items: center;
     height: 4rem;
     box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 12px;
-    border-radius: .8rem;
+    border-radius: .5rem;
 }
 
 .todo-item .check {
