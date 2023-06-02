@@ -22,8 +22,8 @@
 }
 
 .create-todo-button button {
-    -webkit-mask: url(../assets/add.svg);
-    mask: url(../assets/add.svg);
+    -webkit-mask: url(../../assets/add.svg);
+    mask: url(../../assets/add.svg);
     mask-size: cover;
     background: #FAFAFA;
     width: 1.5rem;

@@ -11,8 +11,8 @@
 }
 
 .todo-item .check {
-    -webkit-mask: url(../assets/circle.svg);
-    mask: url(../assets/circle.svg);
+    -webkit-mask: url(../../assets/circle.svg);
+    mask: url(../../assets/circle.svg);
     mask-size: cover;
     background: #4CAF50;
     width: 2rem;
@@ -22,8 +22,8 @@
 }
 
 .todo-item .check--active {
-    -webkit-mask: url(../assets/circle-check.svg);
-    mask: url(../assets/circle-check.svg);
+    -webkit-mask: url(../../assets/circle-check.svg);
+    mask: url(../../assets/circle-check.svg);
     mask-size: cover;
     background: #4CAF50;
     width: 2rem;
@@ -41,8 +41,8 @@
 }
 
 .todo-item .close-item {
-    -webkit-mask: url(../assets/x.svg) no-repeat;
-    mask: url(../assets/x.svg) no-repeat;
+    -webkit-mask: url(../../assets/x.svg) no-repeat;
+    mask: url(../../assets/x.svg) no-repeat;
     background: #757e75;
     background-position: center center;
     width: 1.5rem;
@@ -52,8 +52,8 @@
 }
 
 .todo-item .close-item:hover {
-    -webkit-mask: url(../assets/x-red.svg) no-repeat;
-    mask: url(../assets/x-red.svg) no-repeat;
+    -webkit-mask: url(../../assets/x-red.svg) no-repeat;
+    mask: url(../../assets/x-red.svg) no-repeat;
     background: red;
     background-position: center center;
 }
