@@ -6,11 +6,11 @@ function TodoCounter({total, completed}) {
         total === completed ?
 
         <h1>
-            Has completado todos tus TODOS
+            Has completado todos tus ToDo'S
         </h1>
         :
         <h1>
-            Has completado <span>{completed}</span> de <span>{total}</span> TODOs
+            Has completado <span>{completed}</span> de <span>{total}</span> ToDo's
         </h1>
     );
 }
