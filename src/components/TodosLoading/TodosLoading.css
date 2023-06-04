@@ -1,0 +1,36 @@
+.skeleton {
+    width: 70vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #cacfd4;
+    align-items: center;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 12px;
+    border-radius: .5rem;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-IconComplete,
+.skeleton-IconDelete {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #cacfd4;
+}
+
+.skeleton-text {
+    width: 70%;
+    height: 0.7rem;
+    background-color: #cacfd4;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
