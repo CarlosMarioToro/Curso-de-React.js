@@ -35,9 +35,7 @@ function TodoProvider({children}) {
         newTodos.splice(todoIndex, 1);
 
         saveTodos(newTodos);
-    };
-
-    console.log('Hola');    
+    };   
 
     return (
         <TodoContext.Provider value={{
