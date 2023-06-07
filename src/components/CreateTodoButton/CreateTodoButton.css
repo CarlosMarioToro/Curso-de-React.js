@@ -6,6 +6,7 @@
     align-items: center;
     margin-bottom: 5rem;
     position: relative;
+    z-index: 1;
 }
 
 .create-todo-button div {
