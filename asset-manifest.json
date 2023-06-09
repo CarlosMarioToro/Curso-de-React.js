@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Curso-de-React.js/static/css/main.c7338a5b.css",
+    "main.js": "/Curso-de-React.js/static/js/main.e4416a96.js",
+    "index.html": "/Curso-de-React.js/index.html",
+    "static/media/x-red.svg": "/Curso-de-React.js/static/media/x-red.139e2423c0c58fda0a43.svg",
+    "static/media/x.svg": "/Curso-de-React.js/static/media/x.eb0580540d6e03cd2d52.svg",
+    "static/media/circle-check.svg": "/Curso-de-React.js/static/media/circle-check.337bb861b9e4211753fb.svg",
+    "static/media/add.svg": "/Curso-de-React.js/static/media/add.b1cf848b6591ff189e26.svg",
+    "static/media/circle.svg": "/Curso-de-React.js/static/media/circle.5022754cfbf199720b9a.svg",
+    "main.c7338a5b.css.map": "/Curso-de-React.js/static/css/main.c7338a5b.css.map",
+    "main.e4416a96.js.map": "/Curso-de-React.js/static/js/main.e4416a96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7338a5b.css",
+    "static/js/main.e4416a96.js"
+  ]
+}
